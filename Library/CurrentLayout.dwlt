@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 8}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -40,8 +40,8 @@ MonoBehaviour:
     y: 0
     width: 250
     height: 653
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 11
+  controlID: 111
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -200,7 +200,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 998
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &9
 MonoBehaviour:
@@ -528,17 +528,17 @@ MonoBehaviour:
     m_Folders:
     - Assets
   m_ViewMode: 1
-  m_StartGridSize: 60
+  m_StartGridSize: 96
   m_LastFolders:
   - Assets
-  m_LastFoldersGridSize: 60
+  m_LastFoldersGridSize: 96
   m_LastProjectPath: "C:\\Users\\Miko\u0142aj\\Desktop\\Repositories\\5_Realm_Rush"
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 40270000
-    m_LastClickedID: 10048
-    m_ExpandedIDs: 4027000000ca9a3bffffff7f
+    m_SelectedIDs: 4a270000
+    m_LastClickedID: 10058
+    m_ExpandedIDs: 000000004a27000028a4000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -566,7 +566,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 40270000
+    m_ExpandedIDs: 000000004a270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -619,7 +619,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 60
+    m_GridSize: 96
   m_DirectoriesAreaWidth: 135
 --- !u!114 &20
 MonoBehaviour:
@@ -686,7 +686,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 7a3ffbffa62bfcff5841fdff74f1feff86fbffff00000000
+    m_ExpandedIDs: 6edef9ff3484ffffaaf8ffff2cfaffff9efbffff00000000ee270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -737,14 +737,14 @@ MonoBehaviour:
     height: 632
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 5468.323384759802
+  lastFramingTime: 6663.952619381183
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 15.963439, y: 26.473999, z: -4.0209074}
+    m_Target: {x: -15.595882, y: 21.911825, z: -2.897945}
     speed: 2
-    m_Value: {x: 15.963439, y: 26.473999, z: -4.0209074}
+    m_Value: {x: -15.595882, y: 21.911825, z: -2.897945}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -768,13 +768,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.46736908, y: -0.00293613, z: 0.0015514318, w: 0.88405603}
+    m_Target: {x: 0.19813448, y: 0.6591134, z: -0.18625335, w: 0.70115757}
     speed: 2
-    m_Value: {x: 0.4673691, y: -0.0029361302, z: 0.001551432, w: 0.8840561}
+    m_Value: {x: 0.19813448, y: 0.6591134, z: -0.18625335, w: 0.70115757}
   m_Size:
-    m_Target: 17.80219
+    m_Target: 26.388113
     speed: 2
-    m_Value: 17.80219
+    m_Value: 26.388113
   m_Ortho:
     m_Target: 0
     speed: 2
