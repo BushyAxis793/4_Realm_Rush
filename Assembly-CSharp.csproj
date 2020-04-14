@@ -57,6 +57,7 @@
      <Compile Include="Assets\EnemyMovement.cs" />
      <Compile Include="Assets\EnemySpawner.cs" />
      <Compile Include="Assets\Pathfinder.cs" />
+     <Compile Include="Assets\PlayerHealth.cs" />
      <Compile Include="Assets\Tower.cs" />
      <Compile Include="Assets\TowerFactory.cs" />
      <Compile Include="Assets\Waypoint.cs" />
