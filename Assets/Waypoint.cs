@@ -5,42 +5,46 @@ using UnityEngine;
 public class Waypoint : MonoBehaviour
 {
 
-    [SerializeField] Color exploredColor;
-
     public bool isExplored = false;
-
     public Waypoint exploredFrom;
+    public bool isPlaceable = true;
+
+    [SerializeField] Tower towerPrefab;
 
     Vector2Int gridPos;
 
     const int gridSize = 10;
-
-    void Start()
-    {
-        Physics.queriesHitTriggers = true;
-    }
 
     public int GetGridSize()
     {
         return gridSize;
     }
 
-    void Update()
-    {
-       // neighbour.SetTopColor(Color.blue);
-    }
-
     public Vector2Int GetGridPos()
     {
         return new Vector2Int(
-            Mathf.RoundToInt(transform.position.x / gridSize) ,
-            Mathf.RoundToInt(transform.position.z / gridSize) 
+            Mathf.RoundToInt(transform.position.x / gridSize),
+            Mathf.RoundToInt(transform.position.z / gridSize)
         );
     }
 
     void OnMouseOver()
     {
-        print(gameObject.name);
+        // detect mouse click
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (isPlaceable)
+            {
+
+                Instantiate(towerPrefab, transform.position, Quaternion.identity);
+                isPlaceable = false;
+            }
+            else
+            {
+                print("cant place here");
+            }
+        }
+        // if clicked
     }
 
 }
