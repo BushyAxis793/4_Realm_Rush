@@ -53,7 +53,9 @@
   <ItemGroup>
      <Compile Include="Assets\Block.cs" />
      <Compile Include="Assets\CubeEditor.cs" />
+     <Compile Include="Assets\EnemyDamage.cs" />
      <Compile Include="Assets\EnemyMovement.cs" />
+     <Compile Include="Assets\EnemySpawner.cs" />
      <Compile Include="Assets\Pathfinder.cs" />
      <Compile Include="Assets\Tower.cs" />
      <Compile Include="Assets\Waypoint.cs" />
