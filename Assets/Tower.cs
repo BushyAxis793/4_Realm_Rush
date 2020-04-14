@@ -13,6 +13,8 @@ public class Tower : MonoBehaviour
     //State of each Tower
     Transform targetEnemy;
 
+    public Waypoint baseWaypoint;
+
     // Update is called once per frame
     void Update()
     {
@@ -33,14 +35,14 @@ public class Tower : MonoBehaviour
     private void SetTargetEnemy()
     {
         var sceneEnemies = FindObjectsOfType<EnemyDamage>();
-        if (sceneEnemies.Length==0)
+        if (sceneEnemies.Length == 0)
         {
             return;
         }
 
         Transform closestEnemy = sceneEnemies[0].transform;
 
-        foreach(EnemyDamage testEnemy in sceneEnemies)
+        foreach (EnemyDamage testEnemy in sceneEnemies)
         {
             closestEnemy = GetClosest(closestEnemy, testEnemy.transform);
         }
@@ -53,7 +55,7 @@ public class Tower : MonoBehaviour
         var distToA = Vector3.Distance(transform.position, transformA.position);
         var distToB = Vector3.Distance(transform.position, transformB.position);
 
-        if (distToA<distToB)
+        if (distToA < distToB)
         {
             return transformA;
         }
