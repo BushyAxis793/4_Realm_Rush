@@ -33,7 +33,6 @@ public class Pathfinder : MonoBehaviour
     private void CalculatePath()
     {
         LoadBlocks();
-        ColorStartAndEnd();
         BreadthFirstSearch();
         CreatePath();
     }
@@ -108,11 +107,6 @@ public class Pathfinder : MonoBehaviour
         }
     }
 
-    private void ColorStartAndEnd()
-    {
-        startWaypoint.SetTopColor(Color.green);
-        endWaypoint.SetTopColor(Color.yellow);
-    }
 
     private void LoadBlocks()
     {
@@ -128,7 +122,7 @@ public class Pathfinder : MonoBehaviour
             {
 
                 grid.Add(gridPos, waypoint);
-                waypoint.SetTopColor(Color.red);
+                
             }
             //add to dictionary
         }
